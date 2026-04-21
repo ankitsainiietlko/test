@@ -1,0 +1,75 @@
+{
+  "database_name": "Givashu Agrotech E-Commerce",
+  "export_date": "2024-04-20",
+  "tables": {
+    "categories": [
+      {"id": 1, "name": "Makhana", "slug": "makhana", "image_url": "https://images.pexels.com/photos/62097/pexels-photo-62097.jpeg?auto=compress&cs=tinysrgb&w=400", "description": "Premium fox nuts - healthy snacking", "display_order": 1},
+      {"id": 2, "name": "Mangoes", "slug": "mangoes", "image_url": "https://images.pexels.com/photos/39303/mango-tropical-fruit-juicy-sweet-39303.jpeg?auto=compress&cs=tinysrgb&w=400", "description": "Fresh farm mangoes - King of fruits", "display_order": 2},
+      {"id": 3, "name": "Spices", "slug": "spices", "image_url": "https://images.pexels.com/photos/2802527/pexels-photo-2802527.jpeg?auto=compress&cs=tinysrgb&w=400", "description": "Authentic Indian spices", "display_order": 3},
+      {"id": 4, "name": "Grains", "slug": "grains", "image_url": "https://images.pexels.com/photos/236474/pexels-photo-236474.jpeg?auto=compress&cs=tinysrgb&w=400", "description": "Organic food grains & pulses", "display_order": 4},
+      {"id": 5, "name": "Dry Fruits", "slug": "dry-fruits", "image_url": "https://images.pexels.com/photos/1295572/pexels-photo-1295572.jpeg?auto=compress&cs=tinysrgb&w=400", "description": "Premium nuts and dried fruits", "display_order": 5},
+      {"id": 6, "name": "Vegetables", "slug": "vegetables", "image_url": "https://images.pexels.com/photos/1656666/pexels-photo-1656666.jpeg?auto=compress&cs=tinysrgb&w=400", "description": "Fresh organic vegetables", "display_order": 6}
+    ],
+    "products": [
+      {"id": 1, "name": "Premium Roasted Makhana - Peri Peri", "category": "makhana", "price": 249, "original_price": 299, "image_url": "https://images.pexels.com/photos/62097/pexels-photo-62097.jpeg?auto=compress&cs=tinysrgb&w=400", "description": "Spicy peri peri flavored roasted fox nuts, perfect healthy snack", "rating": 4.8, "featured": true, "stock": 150},
+      {"id": 2, "name": "Classic Salted Makhana", "category": "makhana", "price": 199, "original_price": 229, "image_url": "https://images.pexels.com/photos/1435904/pexels-photo-1435904.jpeg?auto=compress&cs=tinysrgb&w=400", "description": "Lightly salted crispy fox nuts, gluten-free and high protein", "rating": 4.7, "featured": true, "stock": 200},
+      {"id": 3, "name": "Cream & Onion Makhana", "category": "makhana", "price": 229, "original_price": 259, "image_url": "https://images.pexels.com/photos/62097/pexels-photo-62097.jpeg?auto=compress&cs=tinysrgb&w=400", "description": "Delicious cream and onion flavored roasted makhana", "rating": 4.6, "featured": false, "stock": 100},
+      {"id": 4, "name": "Alphonso Mangoes - 1 Dozen", "category": "mangoes", "price": 899, "original_price": 1099, "image_url": "https://images.pexels.com/photos/39303/mango-tropical-fruit-juicy-sweet-39303.jpeg?auto=compress&cs=tinysrgb&w=400", "description": "Premium Devgad Alphonso mangoes, naturally ripened", "rating": 4.9, "featured": true, "stock": 50},
+      {"id": 5, "name": "Dasheri Mangoes - 5kg Box", "category": "mangoes", "price": 599, "original_price": 749, "image_url": "https://images.pexels.com/photos/1352281/pexels-photo-1352281.jpeg?auto=compress&cs=tinysrgb&w=400", "description": "Sweet and aromatic Dasheri mangoes from Malihabad", "rating": 4.7, "featured": false, "stock": 80},
+      {"id": 6, "name": "Organic Turmeric Powder", "category": "spices", "price": 149, "original_price": 189, "image_url": "https://images.pexels.com/photos/2802527/pexels-photo-2802527.jpeg?auto=compress&cs=tinysrgb&w=400", "description": "Pure organic turmeric powder with high curcumin content", "rating": 4.8, "featured": true, "stock": 300},
+      {"id": 7, "name": "Red Chili Powder", "category": "spices", "price": 129, "original_price": 159, "image_url": "https://images.pexels.com/photos/2802527/pexels-photo-2802527.jpeg?auto=compress&cs=tinysrgb&w=400", "description": "Premium Kashmiri red chili powder for rich color", "rating": 4.6, "featured": false, "stock": 250},
+      {"id": 8, "name": "Garam Masala", "category": "spices", "price": 179, "original_price": 219, "image_url": "https://images.pexels.com/photos/2802527/pexels-photo-2802527.jpeg?auto=compress&cs=tinysrgb&w=400", "description": "Authentic blend of whole spices, freshly ground", "rating": 4.9, "featured": true, "stock": 180},
+      {"id": 9, "name": "Organic Basmati Rice", "category": "grains", "price": 349, "original_price": 399, "image_url": "https://images.pexels.com/photos/60021/grain-wheat-cereals-agriculture-60021.jpeg?auto=compress&cs=tinysrgb&w=400", "description": "Long grain aromatic basmati rice aged for 2 years", "rating": 4.8, "featured": true, "stock": 120},
+      {"id": 10, "name": "Quinoa Seeds", "category": "grains", "price": 279, "original_price": 329, "image_url": "https://images.pexels.com/photos/60021/grain-wheat-cereals-agriculture-60021.jpeg?auto=compress&cs=tinysrgb&w=400", "description": "Protein-rich quinoa, perfect for healthy meals", "rating": 4.5, "featured": false, "stock": 100},
+      {"id": 11, "name": "Organic Chana Dal", "category": "grains", "price": 159, "original_price": 189, "image_url": "https://images.pexels.com/photos/60021/grain-wheat-cereals-agriculture-60021.jpeg?auto=compress&cs=tinysrgb&w=400", "description": "Split Bengal gram, high protein pulse", "rating": 4.7, "featured": false, "stock": 200},
+      {"id": 12, "name": "Premium Almonds", "category": "dry-fruits", "price": 699, "original_price": 799, "image_url": "https://images.pexels.com/photos/1295572/pexels-photo-1295572.jpeg?auto=compress&cs=tinysrgb&w=400", "description": "California almonds, rich in Vitamin E and healthy fats", "rating": 4.9, "featured": true, "stock": 90}
+    ],
+    "testimonials": [
+      {"id": 1, "name": "Priya Sharma", "location": "New Delhi", "rating": 5, "text": "The quality of makhana from Givashu Agrotech is exceptional! Perfectly roasted and so fresh. My family loves the peri peri flavor. Will definitely order again!", "avatar_url": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=100"},
+      {"id": 2, "name": "Rajesh Kumar", "location": "Mumbai", "rating": 5, "text": "Best Alphonso mangoes I've ever tasted! They were perfectly ripe and sweet. The packaging was excellent too. Highly recommended for mango lovers.", "avatar_url": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=100"},
+      {"id": 3, "name": "Anita Patel", "location": "Bangalore", "rating": 5, "text": "I love that they support local farmers. The organic spices are so aromatic and authentic. The turmeric powder has such a rich color and flavor. Great initiative!", "avatar_url": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=100"},
+      {"id": 4, "name": "Vikram Singh", "location": "Hyderabad", "rating": 5, "text": "Fast delivery and excellent customer service. The dry fruits are premium quality and fresh. Their almonds are the best I've found online. Keep up the good work!", "avatar_url": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=100"},
+      {"id": 5, "name": "Sunita Gupta", "location": "Chennai", "rating": 5, "text": "Finally found a trustworthy source for organic grains. The basmati rice is fragrant and cooks perfectly. Love their commitment to organic farming!", "avatar_url": "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=100"},
+      {"id": 6, "name": "Amit Mishra", "location": "Lucknow", "rating": 5, "text": "The Dasheri mangoes reminded me of my childhood in Malihabad. Absolutely delicious and authentic. Givashu Agrotech delivers on their promise of quality.", "avatar_url": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=100"}
+    ],
+    "blogs": [
+      {"id": 1, "title": "5 Healthy Makhana Recipes for Weight Loss", "slug": "healthy-makhana-recipes", "category": "Recipes", "image_url": "https://images.pexels.com/photos/62097/pexels-photo-62097.jpeg", "excerpt": "Discover delicious and healthy ways to incorporate makhana into your diet.", "content": "Makhana is a superfood perfect for healthy snacking and weight management.", "read_time": 5},
+      {"id": 2, "title": "The Journey of an Alphonso Mango", "slug": "alphonso-mango-journey", "category": "Farmer Stories", "image_url": "https://images.pexels.com/photos/39303/mango-tropical-fruit-juicy-sweet-39303.jpeg", "excerpt": "Learn how the king of fruits travels from our partner farms to your home.", "content": "The Alphonso mango from Ratnagiri is known worldwide for its sweetness.", "read_time": 7},
+      {"id": 3, "title": "Understanding Organic Certifications", "slug": "organic-certifications-guide", "category": "Education", "image_url": "https://images.pexels.com/photos/2802527/pexels-photo-2802527.jpeg", "excerpt": "A complete guide to understanding organic labels in India.", "content": "Organic certifications ensure products meet strict quality standards.", "read_time": 6},
+      {"id": 4, "title": "Benefits of Turmeric", "slug": "turmeric-benefits", "category": "Health", "image_url": "https://images.pexels.com/photos/2802527/pexels-photo-2802527.jpeg", "excerpt": "Discover why turmeric is called the golden spice of India.", "content": "Turmeric has powerful anti-inflammatory properties.", "read_time": 4},
+      {"id": 5, "title": "How to Store Dry Fruits", "slug": "dry-fruits-storage-guide", "category": "How To", "image_url": "https://images.pexels.com/photos/1295572/pexels-photo-1295572.jpeg", "excerpt": "Simple tips to keep your dry fruits fresh.", "content": "Proper storage extends shelf life significantly.", "read_time": 3}
+    ],
+    "farmers": [
+      {"id": 1, "name": "Ram Singh Patel", "location": "Ratnagiri, Maharashtra", "image_url": "https://images.pexels.com/photos/2889440/pexels-photo-2889440.jpeg", "story": "Ram Singh has been cultivating Alphonso mangoes for over 30 years using organic methods.", "years_farming": 30, "farm_size": "25 acres"},
+      {"id": 2, "name": "Lakshmi Devi", "location": "Darbhanga, Bihar", "image_url": "https://images.pexels.com/photos/2889440/pexels-photo-2889440.jpeg", "story": "Lakshmi leads a women's cooperative producing premium makhana.", "years_farming": 15, "farm_size": "15 acres"},
+      {"id": 3, "name": "Gurmeet Singh", "location": "Amritsar, Punjab", "image_url": "https://images.pexels.com/photos/2889440/pexels-photo-2889440.jpeg", "story": "Gurmeet revolutionized organic wheat farming in Punjab.", "years_farming": 25, "farm_size": "50 acres"},
+      {"id": 4, "name": "Meera Bai", "location": "Jodhpur, Rajasthan", "image_url": "https://images.pexels.com/photos/2889440/pexels-photo-2889440.jpeg", "story": "Meera Bai grows spices using water conservation techniques.", "years_farming": 20, "farm_size": "20 acres"},
+      {"id": 5, "name": "Karthik Reddy", "location": "Anantapur, Andhra Pradesh", "image_url": "https://images.pexels.com/photos/2889440/pexels-photo-2889440.jpeg", "story": "Karthik's family grows almonds and walnuts sustainably.", "years_farming": 18, "farm_size": "40 acres"}
+    ],
+    "certifications": [
+      {"id": 1, "name": "FSSAI Certified", "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Fssai_logo.svg/1200px-Fssai_logo.svg.png", "description": "Food Safety and Standards Authority of India certification ensures food safety and quality standards.", "valid_until": "2025-12-31"},
+      {"id": 2, "name": "India Organic", "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Fssai_logo.svg/1200px-Fssai_logo.svg.png", "description": "National Program for Organic Production certification for organic products.", "valid_until": "2025-06-30"},
+      {"id": 3, "name": "USDA Organic", "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Fssai_logo.svg/1200px-Fssai_logo.svg.png", "description": "United States Department of Agriculture organic certification for export quality.", "valid_until": "2025-09-15"},
+      {"id": 4, "name": "ISO 22000", "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Fssai_logo.svg/1200px-Fssai_logo.svg.png", "description": "International food safety management system certification.", "valid_until": "2025-11-20"}
+    ],
+    "nutrition_facts": [
+      {"id": 1, "product_id": 1, "serving_size": "30g", "calories": 120, "protein": "4g", "carbs": "20g", "fat": "1g", "fiber": "2g", "sugar": "0g", "sodium": "5mg", "ingredients": "Fox nuts, Peri Peri seasoning, Salt", "allergens": "None"},
+      {"id": 2, "product_id": 4, "serving_size": "200g", "calories": 134, "protein": "1.4g", "carbs": "35g", "fat": "0.6g", "fiber": "2.4g", "sugar": "31g", "sodium": "2mg", "ingredients": "Fresh Alphonso Mangoes", "allergens": "None"},
+      {"id": 3, "product_id": 6, "serving_size": "5g", "calories": 18, "protein": "0.5g", "carbs": "3g", "fat": "0.2g", "fiber": "1g", "sugar": "0g", "sodium": "1mg", "ingredients": "100% Organic Turmeric", "allergens": "None"}
+    ],
+    "traceability": [
+      {"id": 1, "product_id": 1, "batch_code": "MKH240301", "farm_name": "Mithila Organics", "harvest_date": "2024-02-15", "processing_date": "2024-02-20", "packaging_date": "2024-02-25", "expiry_date": "2025-02-25", "qr_code": "GV-MKH-001"},
+      {"id": 2, "product_id": 4, "batch_code": "MNG240301", "farm_name": "Ratnagiri Farms", "harvest_date": "2024-03-01", "processing_date": null, "packaging_date": "2024-03-02", "expiry_date": "2024-03-10", "qr_code": "GV-MNG-001"},
+      {"id": 3, "product_id": 6, "batch_code": "TRM240301", "farm_name": "Rajasthan Organics", "harvest_date": "2024-01-10", "processing_date": "2024-01-15", "packaging_date": "2024-01-20", "expiry_date": "2026-01-20", "qr_code": "GV-TRM-001"}
+    ]
+  },
+  "schema": {
+    "total_tables": 21,
+    "tables_list": [
+      "categories", "products", "testimonials", "contacts", "blogs", "farmers", 
+      "certifications", "nutrition_facts", "traceability", "profiles", "cart_items",
+      "wishlists", "orders", "order_items", "reviews", "subscriptions",
+      "newsletter_subscribers", "bulk_orders", "loyalty_points", "loyalty_history", "referrals"
+    ]
+  }
+}
